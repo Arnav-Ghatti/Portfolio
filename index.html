@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnav Ghatti</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="navbarItem"><a href="#">Home</a></li>
+                <li class="navbarItem"><a href="#">About Me</a></li>
+                <li class="navbarItem"><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="indicator">
+                <span class="btn active"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </div>
+            <div class="slide-show">
+                <div class="slide-row" id="slide">
+                    <div class="slide-col">
+                        <h1>Welcome! I am</h1>
+                        <img src="./Images/logo.png" alt="Logo" class="logo">
+                    </div>
+                    
+                    <div class="slide-col">
+                        <h1>About Me</h1>
+                        <p class="about"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ducimus quia, eos, consequatur non corrupti magnam officiis commodi, quae voluptatum saepe nostrum nobis architecto obcaecati ipsum modi sapiente accusamus fugiat!</p>
+                    </div>
+
+                    <div class="slide-col">
+                        <h1>Contact Me</h1>
+                        <form action="post">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+                            <textarea name="message" class="form-control" rows="4"></textarea><br>
+                            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <p id="copyright">Copyright © 2021 Arnav Ghatti</p> -->
+        <script src="./script.js"></script>
+    </header>
+</body>
+
+</html>
